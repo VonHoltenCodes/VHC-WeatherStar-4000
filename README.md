@@ -3,7 +3,7 @@
 **VonHoltenCodes Custom Edition** - A local desktop weather display application based on WeatherStar 4000+
 
 ![WeatherStar 4000+](https://img.shields.io/badge/WeatherStar-4000%2B-orange)
-![License](https://img.shields.io/badge/license-Educational%20%2F%20Private%20Use-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0-brightgreen)
 
 ---
@@ -15,7 +15,7 @@ This project is a **customized fork** of the original [WeatherStar 4000+](https:
 **Original Project:**
 - Repository: https://github.com/netbymatt/ws4kp
 - Author: Matt Walsh (netbymatt)
-- Original License: GPL-3.0
+- Original License: MIT
 - Demo: https://weatherstar.netbymatt.com
 
 **VonHoltenCodes Customizations:**
@@ -24,18 +24,23 @@ This project is a **customized fork** of the original [WeatherStar 4000+](https:
 - Desktop application launcher for Pop!_OS/Linux
 - Simplified local hosting setup
 
-### License Restrictions
+### License
 
-**This customized version is for EDUCATIONAL and PRIVATE USE ONLY.**
+This project is licensed under the **MIT License** - the same as the original WeatherStar 4000+ project.
 
-- ✅ Personal use on your own computer
-- ✅ Educational/learning purposes
-- ✅ Private experimentation
-- ❌ Commercial use
-- ❌ Public hosting/deployment
-- ❌ Redistribution without attribution
+**What this means:**
+- ✅ Free to use for personal, educational, or commercial purposes
+- ✅ Free to modify and distribute
+- ✅ Free to host publicly or privately
+- ✅ Must include the original MIT license and copyright notice
 
-The original WeatherStar 4000+ project maintains its GPL-3.0 license. This fork respects that license while adding VonHoltenCodes branding for personal use.
+**Attribution Required:**
+When using or distributing this software, you must include:
+1. The original copyright notice for Matt Walsh (see LICENSE file)
+2. The MIT License text
+3. Attribution is appreciated but not legally required beyond the license terms
+
+This fork respects the original MIT license while adding VonHoltenCodes branding customizations.
 
 ---
 
@@ -68,8 +73,8 @@ This is a **local desktop application** that displays weather information in the
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/VonHoltenCodes/VHC-WeatherStar-4000-.git
-   cd VHC-WeatherStar-4000-
+   git clone https://github.com/VonHoltenCodes/VHC-WeatherStar-4000.git
+   cd VHC-WeatherStar-4000
    ```
 
 2. **Install dependencies:**
@@ -136,7 +141,7 @@ This version includes the following custom branding:
 
 **Option 2: Terminal**
 ```bash
-cd /path/to/VHC-WeatherStar-4000-
+cd /path/to/VHC-WeatherStar-4000
 ./simple-start.sh
 ```
 
@@ -215,7 +220,7 @@ WSQS_settings-kiosk-checkbox=false
 ### Project Structure
 
 ```
-VHC-WeatherStar-4000-/
+VHC-WeatherStar-4000/
 ├── server/
 │   ├── styles/scss/_vonholten-branding.scss  # Custom branding CSS
 │   ├── images/vonholten-logo*.svg            # Logo assets
@@ -342,15 +347,19 @@ npm install
 
 ## 📄 License
 
-This project maintains the **GPL-3.0 license** from the original WeatherStar 4000+ project.
+This project is licensed under the **MIT License** - the same as the original WeatherStar 4000+ project by Matt Walsh.
 
-**Additional Restrictions for VonHoltenCodes Edition:**
-- **Educational and Private Use Only**
-- No commercial use
-- No public deployment without permission
-- Attribution required for any derivative works
+**You are free to:**
+- Use commercially
+- Modify and distribute
+- Use privately
+- Sublicense
 
-See [LICENSE](LICENSE) for full details.
+**Conditions:**
+- Include the original copyright and license notice (see [LICENSE](LICENSE))
+- Software is provided "as is" without warranty
+
+See [LICENSE](LICENSE) for full legal text.
 
 ---
 
@@ -358,7 +367,7 @@ See [LICENSE](LICENSE) for full details.
 
 - **Original Project:** [WeatherStar 4000+ by netbymatt](https://github.com/netbymatt/ws4kp)
 - **VonHoltenCodes:** [https://vonholtencodes.com](https://vonholtencodes.com)
-- **This Repository:** [VHC-WeatherStar-4000-](https://github.com/VonHoltenCodes/VHC-WeatherStar-4000-)
+- **This Repository:** [VHC-WeatherStar-4000](https://github.com/VonHoltenCodes/VHC-WeatherStar-4000)
 
 ---
 
