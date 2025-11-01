@@ -1,0 +1,113 @@
+/* VonHoltenCodes Branding Customization - Retro Orange & Red Theme */
+
+/* VonHoltenCodes Brand Colors - Retro Orange & Red */
+:root {
+  --vh-orange: #ff4500;        /* Bright OrangeRed */
+  --vh-red: #ff0000;           /* Pure Red */
+  --vh-dark-orange: #ff6600;   /* Dark Orange */
+  --vh-warm-orange: #ff8800;   /* Warm Orange */
+  --vh-gold: #FFD700;          /* Gold accent */
+  --vh-dark-bg: #1c0a00;       /* Dark brown-black */
+  --vh-darker-bg: #0a0400;     /* Very dark brown-black */
+  --retro-glow: rgba(255, 69, 0, 0.8);
+  --retro-red-glow: rgba(255, 0, 0, 0.8);
+}
+
+/* VonHoltenCodes Logo Badge - Top Right Corner */
+.vonholten-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* Don't block clicks */
+
+  &:hover {
+    opacity: 1;
+  }
+
+  svg {
+    width: 48px;
+    height: 48px;
+    filter: drop-shadow(0 0 10px rgba(255, 69, 0, 0.7));
+    animation: subtle-pulse 3s ease-in-out infinite;
+  }
+}
+
+@keyframes subtle-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(255, 69, 0, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px rgba(255, 69, 0, 0.9));
+  }
+}
+
+/* Powered By Badge - Bottom Right Corner */
+.powered-by-vh {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  z-index: 100;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* Don't block clicks */
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .vh-text {
+    color: var(--vh-orange);
+    text-shadow:
+      0 0 5px rgba(255, 69, 0, 0.9),
+      0 0 10px rgba(255, 69, 0, 0.6),
+      0 0 15px rgba(255, 69, 0, 0.3);
+  }
+
+  .codes-text {
+    color: var(--vh-red);
+    text-shadow:
+      0 0 5px rgba(255, 0, 0, 0.9),
+      0 0 10px rgba(255, 0, 0, 0.6),
+      0 0 15px rgba(255, 0, 0, 0.3);
+  }
+}
+
+/* Kiosk mode adjustments */
+body.kiosk {
+  .vonholten-badge,
+  .powered-by-vh {
+    display: block; /* Keep visible even in kiosk mode */
+  }
+}
+
+/* Enhanced retro orange/red glow effect for the main display */
+#divTwcMain {
+  box-shadow:
+    0 0 30px rgba(255, 69, 0, 0.15),
+    0 0 50px rgba(255, 0, 0, 0.08),
+    inset 0 0 40px rgba(255, 69, 0, 0.03);
+}
+
+/* Custom styling for loading screen title - Orange/Red theme */
+#loading .title {
+  text-shadow:
+    0 0 10px rgba(255, 69, 0, 0.9),
+    0 0 20px rgba(255, 69, 0, 0.6),
+    0 0 30px rgba(255, 0, 0, 0.4);
+}
+
+/* Add subtle orange tint to the overall container */
+#divTwc {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 69, 0, 0.02) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WeatherStar 4000
+Comment=VonHoltenCodes Weather Display - Retro WeatherStar 4000+ simulator
+Exec=/home/vonholten/ws4kp/simple-start.sh
+Icon=weather-storm
+Terminal=true
+Categories=Network;Weather;
+Keywords=weather;forecast;radar;weatherstar;
+StartupNotify=true
