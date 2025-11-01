@@ -23,7 +23,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/vonholtencodes/vhc-weatherstar-4000-
+            ghcr.io/vonholtencodes/vhc-weatherstar-4000
           flavor: |
             latest=false
           tags: |
